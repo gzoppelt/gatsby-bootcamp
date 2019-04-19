@@ -8,7 +8,7 @@ const ContactPage = () => {
             <h1>Contact</h1>
             <p>Guenther</p>
             <p>Hemel Hempsyead</p>
-            <a href="https://github.com/gzoppelt/gatsby-bootcamp" 
+            <a href="https://github.com/gzoppelt/gatsby-bootcamp"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
