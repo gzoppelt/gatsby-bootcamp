@@ -1,15 +1,20 @@
 import React from 'react'
 import { Link } from 'gatsby' 
+import Layout from '../components/layout'
 
 const ContactPage = () => {
-    return (
-        <div>
+    return (   
+        <Layout>
             <h1>Contact</h1>
             <p>Guenther</p>
             <p>Hemel Hempsyead</p>
-            <hr/>
-            <Link to="/">Home</Link>
-        </div> 
+            <a href="https://github.com/gzoppelt/gatsby-bootcamp" 
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                Find this project on GitHub
+            </a>
+        </Layout>
     )
 }
 
