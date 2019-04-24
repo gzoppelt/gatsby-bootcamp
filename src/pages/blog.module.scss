@@ -1,9 +1,36 @@
-ol {
+.posts {
   list-style-type: none;
   margin: 0;  
   color: green;
 }
-li * {  
-  text-decoration: none;
-  color: #666666;
+
+.post {
+    margin: 3rem 0;
+   
+    a {
+        background: #e4e4e4;
+        text-decoration: none;
+        color: #666666;;
+       
+        display: block;
+        padding: 1rm;
+    }
+
+    a:hover {
+        background: #d4d4d4;
+    }
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    p {
+       color: #777777;
+       font-size: .8rem;
+       font-style: italic; 
+    }
+}
+
+.post * {  
+ 
 }

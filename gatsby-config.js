@@ -5,6 +5,14 @@ module.exports = {
     },
 
     plugins: [
+        'gatsby-plugin-react-helmet',
+        {
+            resolve: 'gatsby-source-contentful',
+            options:    {
+                spaceId: 'kpayddttbvny',
+                accessToken: '403b47729e7dbfe87a34c4528d37677fb716e9b8fa20824e86e8448fef4433d1'
+            }
+        },
         'gatsby-plugin-sass',
         {
             resolve: 'gatsby-source-filesystem',
